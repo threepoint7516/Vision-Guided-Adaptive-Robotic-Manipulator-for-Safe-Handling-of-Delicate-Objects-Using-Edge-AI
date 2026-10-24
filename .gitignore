@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datasets, models, media (keep on Roboflow / Google Drive)
+datasets/
+data/*
+!data/logs/
+data/logs/*
+!data/logs/.gitkeep
+!data/logs/README.md
+*.pt
+*.onnx
+*.engine
+*_ncnn_model/
+*.param
+*.bin
+runs/
+*.mp4
+*.avi
+*.mov
+*.zip
+
+# STM32CubeIDE build output
+firmware/**/Debug/
+firmware/**/Release/
+firmware/**/.settings/
+*.elf
+*.map
+*.o
+*.d
+*.su
+
+# CAD temp/backup files
+cad/**/*.bak
+cad/**/~*
+cad/**/*.lck
+*.f3d.bak
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

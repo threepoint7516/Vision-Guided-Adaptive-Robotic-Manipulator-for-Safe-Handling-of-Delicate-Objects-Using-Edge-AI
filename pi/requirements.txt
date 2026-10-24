@@ -1,0 +1,7 @@
+# Runtime on Raspberry Pi 5 (Pi OS 64-bit)
+numpy>=1.26
+opencv-python>=4.9
+ultralytics>=8.3     # YOLO11n training/export
+ncnn>=1.0.20240410   # NCNN runtime for exported YOLO11n
+pyserial>=3.5
+pyyaml>=6.0
