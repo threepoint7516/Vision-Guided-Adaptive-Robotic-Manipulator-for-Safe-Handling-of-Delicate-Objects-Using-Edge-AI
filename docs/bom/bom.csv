@@ -2,16 +2,16 @@ id,item,qty,unit_pkr,total_pkr,source,lead,notes
 1,NEMA23 stepper + 10:1 low-backlash planetary (J2),1,30000,30000,StepperOnline/AliExpress,long,<=20 arcmin; incl ~25% shipping+customs
 2,NEMA17 stepper + 10:1 low-backlash planetary (J1),1,16000,16000,StepperOnline/AliExpress,long,
 3,NEMA17 stepper + 15:1 low-backlash planetary (J3),1,16000,16000,StepperOnline/AliExpress,long,
-4,Short NEMA17 + 5:1 planetary (J4),1,14000,14000,StepperOnline/AliExpress,long,5:1 needed per torque calc
+4,Short NEMA17 + 5:1 standard planetary (J4),1,11000,11000,StepperOnline/AliExpress,long,standard backlash OK for J4
 5,DM542 driver (J2),1,9000,9000,AliExpress,long,
-6,TMC2209 driver module (J1 J3 J4 + spare),4,1500,6000,Local,short,
+6,TMC2209 driver module (J1 J3 J4),3,1500,4500,Local,short,
 7,Nucleo-F446RE,1,9500,9500,Local,short,
-8,Raspberry Pi 5 8GB,1,33000,33000,Local,short,
+8,Raspberry Pi 5 4GB,1,25000,25000,Local,short,4 GB enough for YOLO11n NCNN on CPU
 9,Pi 5 active cooler,1,2000,2000,Local,short,
 10,Pi 5 official 27 W USB-C PSU,1,4000,4000,Local,short,
 11,microSD 64 GB A2,1,2500,2500,Local,short,
 12,Logitech C920,1,16000,16000,Local,short,
-13,DS3218 servo (J5 J6 + spare),3,3500,10500,Local,short,
+13,DS3218 servo (J5 J6),2,3500,7000,Local,short,
 14,STS3215 bus servo (gripper),1,5500,5500,Local/AliExpress,medium,
 15,1 kg load cell + HX711,1,1000,1000,Local,short,
 16,FSR402 (backup),1,1200,1200,Local,short,
@@ -24,7 +24,7 @@ id,item,qty,unit_pkr,total_pkr,source,lead,notes
 23,Limit switches,6,100,600,Local,short,
 24,Bearings (J1 thrust + 6806/6008 + 608),1,6000,6000,Local,short,
 25,J2 counterbalance spring/gas spring,1,2000,2000,Local,short,
-26,PETG/PLA+ filament 1 kg,3,4500,13500,Local,short,or printing service
+26,PETG/PLA+ filament 1 kg,2,4500,9000,Local,short,or printing service
 27,Fasteners kit M3/M4/M5,1,4000,4000,Local,short,
 28,Wire 18/22 AWG + connectors + drag chain + sleeving,1,5000,5000,Local,short,
 29,Silicone sheet for finger pads,1,1500,1500,Local,short,
